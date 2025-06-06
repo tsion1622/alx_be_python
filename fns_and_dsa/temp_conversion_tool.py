@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-# Global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+# Global conversion factors (no spaces around =, exactly as expected)
+FAHRENHEIT_TO_CELSIUS_FACTOR=5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR=9/5
 
 def convert_to_celsius(fahrenheit):
     """Convert Fahrenheit to Celsius"""
